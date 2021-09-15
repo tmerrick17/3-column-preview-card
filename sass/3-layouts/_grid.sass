@@ -2,8 +2,11 @@
 
 /* * Grid layout for Cards
 .grid 
-    min-height: 90vh
+    min-height: 80vh
     display: grid
     justify-content: center
-    align-items: stretch
+    align-items: center
     margin-block: abst.$space-lg
+
+    @media screen and (min-width: 1200px)
+        grid-template-columns: repeat(3, min-content)

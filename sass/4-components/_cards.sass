@@ -6,24 +6,35 @@
     display: flex
     align-items: stretch
     
-    &--1 /* * First card in Grid */
+    &--1 // First card in Grid
         background-color: abst.$color-orange 
     
-    &--top-border-radius
+    &--border-radius-1
         border-radius: 10px 10px 0 0
     
-    &--2 /* * Second card in Grid */
+    &--2 // Second card in Grid 
         background-color: abst.$color-cyan
 
-    &--3 /* * Third card in Grid */
+    &--3 // Third card in Grid
         background-color: abst.$color-green
     
-    &--bot-border-radius
+    &--border-radius-2
         border-radius: 0px 0px 10px 10px
+    
+    @media screen and (min-width: 1200px)
+        &--border-radius-1
+            border-radius: 10px 0 0 10px
 
+        &--border-radius-2
+            border-radius: 0 10px 10px 0
+        
 .card__content
     padding: abst.$space-lg abst.$space-lg (abst.$space-lg + 0.6rem)
 
 .card__thumbnail
     margin-bottom: abst.$space-sm + 0.45rem // Adding small height difference according to mockup 
 
+// Tablet/Desktop Media Query specific margin change
+.card__description
+    @media screen and (min-width: 1200px)
+        margin-bottom: 6.3rem

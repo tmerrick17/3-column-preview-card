@@ -1,7 +1,31 @@
 @use '../1-abstracts' as abst
 
-/* Card Button Layout */
+/* * Card Button Layout Styles */
 .btn 
     background-color: abst.$color-gray-light
     padding: 1rem 2rem 1rem
-    border-radius: 30px
+    border-radius: 70px
+    text-decoration: none
+    transition-duration: 0.3s
+    // Hover Styles
+    &:hover
+        outline: solid 3px abst.$color-gray-light
+        outline-offset: -1px
+        color: abst.$color-gray-light
+
+// Button specific hover styles   
+.btn--1
+    &:hover
+        background-color: abst.$color-orange
+
+.btn--2
+    &:hover
+        background-color: abst.$color-cyan
+
+.btn--3
+    &:hover
+        background-color: abst.$color-green
+
+        
+
+        
