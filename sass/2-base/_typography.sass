@@ -1,12 +1,22 @@
 @use '../1-abstracts' as abst
 
 .card__title
-    color: abst.$color-gray-light
     font-family: abst.$font-primary
     font-size: abst.$font-lg
+    transform: scaleY(0.8)
     font-weight: 400
     text-transform: uppercase
+    color: abst.$color-gray-light
     margin-bottom: abst.$space-sm
 
+.card__description
+    font-family: abst.$font-secondary
+    font-size: abst.$font-sm
+    line-height: 1.5rem
+    color: abst.$color-white-transparent
+    margin-bottom: abst.$space-md
 
-
+.btn
+    font-family: abst.$font-secondary
+    font-size: abst.$font-sm
+    color: abst.$color-orange

@@ -25,12 +25,27 @@ a:focus {
 }
 
 .card__title {
-  color: #f2f2f2;
   font-family: "Big Shoulders Display", cursive;
   font-size: 3rem;
+  transform: scaleY(0.8);
   font-weight: 400;
   text-transform: uppercase;
-  margin-bottom: 1rem;
+  color: #f2f2f2;
+  margin-bottom: 1.2rem;
+}
+
+.card__description {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 2.5rem;
+}
+
+.btn {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9rem;
+  color: #e38826;
 }
 
 /* * Body Styles */
@@ -46,7 +61,7 @@ body {
   display: grid;
   justify-content: center;
   align-items: stretch;
-  margin-block: 2.5rem;
+  margin-block: 3.24rem;
 }
 
 /* * Footer Styles */
@@ -103,7 +118,16 @@ footer p {
 }
 
 .card__content {
-  padding: 2.5rem;
+  padding: 3.24rem 3.24rem 3.84rem;
 }
 
-/* **** Mobile Viewport ****//*# sourceMappingURL=main.css.map */
+.card__thumbnail {
+  margin-bottom: 1.65rem;
+}
+
+/* Card Button Layout */
+.btn {
+  background-color: #f2f2f2;
+  padding: 1rem 2rem 1rem;
+  border-radius: 30px;
+}/*# sourceMappingURL=main.css.map */
