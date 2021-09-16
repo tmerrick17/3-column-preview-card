@@ -96,10 +96,11 @@ footer p {
 
 /* * Footer Link Hover and Focus Styles */
 .footer__link {
-  color: #006970;
+  color: #004241;
+  position: relative;
 }
 .footer__link:hover, .footer__link:focus {
-  color: #004241;
+  color: #006970;
 }
 .footer__link:hover {
   text-decoration: none;
@@ -111,7 +112,7 @@ footer p {
   bottom: 0;
   width: 100%;
   height: 2px;
-  background: #004241;
+  background: #006970;
 }
 
 /* Card Styles */
@@ -170,6 +171,9 @@ footer p {
   outline: solid 3px #f2f2f2;
   outline-offset: -1px;
   color: #f2f2f2;
+}
+.btn:focus {
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.5), 0 0 0 10px #f2f2f2;
 }
 
 .btn--1:hover {
