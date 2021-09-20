@@ -3,18 +3,17 @@
 /* * Card Button Layout Styles */
 .btn 
     background-color: abst.$color-gray-light
-    padding: 1rem 2rem 1rem
+    padding: 1.6rem 3rem
     border-radius: 70px
     text-decoration: none
     transition-duration: 0.3s
     // Hover Styles
     &:hover
-        outline: solid 3px abst.$color-gray-light
-        outline-offset: -1px
+        box-shadow: 0 0 0 3px abst.$color-gray-light
         color: abst.$color-gray-light
     // Focus Styles
     &:focus
-        box-shadow: 0 0 0 5px hsla(0, 0%, 0%, 0.5), 0 0 0 10px abst.$color-gray-light
+        box-shadow: 0 0 0 0.5rem hsla(0, 0%, 0%, 0.5), 0 0 0 1rem abst.$color-gray-light
 
 // Button specific hover styles   
 .btn--1

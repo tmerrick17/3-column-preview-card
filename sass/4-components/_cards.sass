@@ -2,15 +2,14 @@
 
 /* Card Styles */
 .card
-    width: Min(330px, 86vw)
+    width: Min(330px, 87vw)
     display: flex
-    align-items: stretch
     
     &--1 // First card in Grid
         background-color: abst.$color-orange 
     
     &--border-radius-1
-        border-radius: 10px 10px 0 0
+        border-radius: 1rem 1rem 0 0
     
     &--2 // Second card in Grid 
         background-color: abst.$color-cyan
@@ -19,22 +18,22 @@
         background-color: abst.$color-green
     
     &--border-radius-2
-        border-radius: 0px 0px 10px 10px
+        border-radius: 0px 0px 1rem 1rem
     
     @media screen and (min-width: 1200px)
         &--border-radius-1
-            border-radius: 10px 0 0 10px
+            border-radius: 1rem 0 0 1rem
 
         &--border-radius-2
-            border-radius: 0 10px 10px 0
+            border-radius: 0 1rem 1rem 0
         
 .card__content
-    padding: abst.$space-lg abst.$space-lg (abst.$space-lg + 0.6rem)
+    padding: abst.$font-lg abst.$font-lg 6rem
 
 .card__thumbnail
-    margin-bottom: abst.$space-sm + 0.45rem // Adding small height difference according to mockup 
+    margin-bottom: abst.$space-sm + 0.72rem // Adding small height difference according to mockup 
 
 // Tablet/Desktop Media Query specific margin change
 .card__description
     @media screen and (min-width: 1200px)
-        margin-bottom: 6.3rem
+        margin-bottom: 10rem
