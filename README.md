@@ -67,7 +67,7 @@ Finally worked on:
 
 ### What I learned
 
-I did a lot of research using the [Sass modular structure](https://sass-guidelin.es) (7-1 pattern).  While this project probably didn't need this structure I wanted to practice using it for eventually bigger projects.  I took to it pretty quickly and it was enjoyable to figure and use.
+I did a lot of research using the [Sass modular structure](https://sass-guidelin.es) (7-1 pattern).  While this project probably didn't need this structure I wanted to practice using it for eventually bigger projects.  I took to it pretty quickly and it was enjoyable to figure out and use.
 
 ### Continued development
 
@@ -81,7 +81,7 @@ Eventually when appropriate I want to really tackle @mixins and @functions.  I a
 
 - Website - [Trevor Merrick](https://trevormerrick.com)
 - LinkedIn - [@trevormerrick](https://www.linkedin.com/in/trevormerrick/)
-- GitHub - [@tmerrick17](https://github.com/tmerrick17/order-summary-component-main)
+- GitHub - [@tmerrick17](https://github.com/tmerrick17/)
 - Frontend Mentor - [@tmerrick17](https://www.frontendmentor.io/profile/tmerrick17)
 - Twitter - [@tcmerrick](https://www.twitter.com/tcmerrick)
 
