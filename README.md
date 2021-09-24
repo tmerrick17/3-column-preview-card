@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/mobile-first-webpage-using-sass-and-bem-kqYI50SN0)
-- Live Site URL: [Add live site URL here](https://tmerrick17.github.io/3-column-preview-card/)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/mobile-first-webpage-using-sass-and-bem-kqYI50SN0)
+- Live Site URL: [Live Site URL](https://tmerrick17.github.io/3-column-preview-card/)
 
 ## My process
 
